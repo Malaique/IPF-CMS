@@ -1,0 +1,4 @@
+cms_boutique:
+    resource: "@CMSBoutiqueBundle/Resources/config/routing.yml"
+    prefix:   /
+
