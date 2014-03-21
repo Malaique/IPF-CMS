@@ -1,1 +1,9 @@
-Hello {{ name }}!
+{% extends '::base.html.twig' %}
+{% block title %}Accueil - {{ parent() }} {% endblock %}
+{% block body %}
+<div class="jumbotron">
+        <h1>Hello</h1>
+        <p>Nullam ante est, ornare id ullamcorper quis, ultrices ac purus. Duis semper mattis turpis sit amet commodo. Nulla placerat leo vitae pulvinar auctor. Maecenas nec diam nisl. Pellentesque eleifend hendrerit vestibulum. Etiam eu purus sollicitudin, convallis sapien in, ultricies sapien. Nam bibendum venenatis commodo.</p>
+        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+      </div>
+{% endblock %}
