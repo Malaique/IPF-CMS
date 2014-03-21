@@ -56,7 +56,7 @@ class __TwigTemplate_5f2db089c9a71f2e725a8f9863801455c9814e34cfd3e8d00dbef95a170
 
           <div class=\"inner cover\">
             <h1 class=\"cover-heading\">Projet IP-Formation</h1>
-            <p class=\"lead\">Nous allons faire un projet en utilisant de la merde.</p>
+            <p class=\"lead\">Nous allons faire un projet en utilisant de la merde...</p>
             <p class=\"lead\">
               <a target=\"_new\" href=\"https://drive.google.com/file/d/0BwyUbWdxN8kKVUJVMlB1SzdrUkU/edit?usp=sharing\" class=\"btn btn-lg btn-default\">Learn more</a>
             </p>
