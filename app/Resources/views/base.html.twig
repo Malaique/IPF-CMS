@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>{% block title %}CMS {% endblock %}</title>
-    {% stylesheets 'css/bootstrap.min.css' filter='cssrewrite' %}
+    {% stylesheets 'css/bootstrap.min.css' filter='cssrewrite' %}    
         <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets 'css/cover.css' filter='cssrewrite' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
   </head>
 

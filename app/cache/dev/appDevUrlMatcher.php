@@ -27,15 +27,31 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         $context = $this->context;
         $request = $this->request;
 
-        if (0 === strpos($pathinfo, '/css/3250495')) {
-            // _assetic_3250495
-            if ($pathinfo === '/css/3250495.css') {
-                return array (  '_controller' => 'assetic.controller:render',  'name' => 3250495,  'pos' => NULL,  '_format' => 'css',  '_route' => '_assetic_3250495',);
+        if (0 === strpos($pathinfo, '/css')) {
+            if (0 === strpos($pathinfo, '/css/3250495')) {
+                // _assetic_3250495
+                if ($pathinfo === '/css/3250495.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => 3250495,  'pos' => NULL,  '_format' => 'css',  '_route' => '_assetic_3250495',);
+                }
+
+                // _assetic_3250495_0
+                if ($pathinfo === '/css/3250495_bootstrap.min_1.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => 3250495,  'pos' => 0,  '_format' => 'css',  '_route' => '_assetic_3250495_0',);
+                }
+
             }
 
-            // _assetic_3250495_0
-            if ($pathinfo === '/css/3250495_bootstrap.min_1.css') {
-                return array (  '_controller' => 'assetic.controller:render',  'name' => 3250495,  'pos' => 0,  '_format' => 'css',  '_route' => '_assetic_3250495_0',);
+            if (0 === strpos($pathinfo, '/css/da94eb6')) {
+                // _assetic_da94eb6
+                if ($pathinfo === '/css/da94eb6.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => 'da94eb6',  'pos' => NULL,  '_format' => 'css',  '_route' => '_assetic_da94eb6',);
+                }
+
+                // _assetic_da94eb6_0
+                if ($pathinfo === '/css/da94eb6_cover_1.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => 'da94eb6',  'pos' => 0,  '_format' => 'css',  '_route' => '_assetic_da94eb6_0',);
+                }
+
             }
 
         }

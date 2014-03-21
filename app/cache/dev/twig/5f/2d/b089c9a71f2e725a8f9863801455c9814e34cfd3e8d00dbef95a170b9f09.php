@@ -37,11 +37,42 @@ class __TwigTemplate_5f2db089c9a71f2e725a8f9863801455c9814e34cfd3e8d00dbef95a170
     public function block_body($context, array $blocks = array())
     {
         // line 4
-        echo "<div class=\"jumbotron\">
-        <h1>Hello</h1>
-        <p>Nullam ante est, ornare id ullamcorper quis, ultrices ac purus. Duis semper mattis turpis sit amet commodo. Nulla placerat leo vitae pulvinar auctor. Maecenas nec diam nisl. Pellentesque eleifend hendrerit vestibulum. Etiam eu purus sollicitudin, convallis sapien in, ultricies sapien. Nam bibendum venenatis commodo.</p>
-        <p><a href=\"#\" class=\"btn btn-primary btn-lg\" role=\"button\">Learn more »</a></p>
+        echo "<div class=\"site-wrapper\">
+
+      <div class=\"site-wrapper-inner\">
+
+        <div class=\"cover-container\">
+
+          <div class=\"masthead clearfix\">
+            <div class=\"inner\">
+              <h1 class=\"masthead-brand\">ODYSSEUS</h1>
+              <ul class=\"nav masthead-nav\">
+                <li class=\"active\"><a href=\"#\">Accueil</a></li>
+                <li><a target=\"_new\" href=\"https://drive.google.com/file/d/0BwyUbWdxN8kKVUJVMlB1SzdrUkU/edit?usp=sharing\">Cahier de charge</a></li>
+                <li><a href=\"#\">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class=\"inner cover\">
+            <h1 class=\"cover-heading\">Projet IP-Formation</h1>
+            <p class=\"lead\">Nous allons faire un projet en utilisant de la merde.</p>
+            <p class=\"lead\">
+              <a target=\"_new\" href=\"https://drive.google.com/file/d/0BwyUbWdxN8kKVUJVMlB1SzdrUkU/edit?usp=sharing\" class=\"btn btn-lg btn-default\">Learn more</a>
+            </p>
+          </div>
+
+          <div class=\"mastfoot\">
+            <div class=\"inner\">
+              <p>&copy;2014 eLabs&reg;is a registered trademark of FUCK IE CORPORATION. All Rights Reserved.</p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+
+    </div>
 ";
     }
 
